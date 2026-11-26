@@ -7,6 +7,8 @@ All changes noticeable to whoever runs the service. The format follows
 
 ## [Unreleased]
 
+## [0.3.0] - 2026-11-26
+
 ### Changed
 
 - All runtime text is now in English: log messages, configuration errors and the
