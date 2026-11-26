@@ -1,0 +1,13 @@
+{
+  "status": 200,
+  "content_type": "application/epub+zip",
+  "content_disposition": "attachment; filename=\"bm_text.epub\"",
+  "www_authenticate": null,
+  "upstream": [
+    {
+      "path": "/api/v1/bookmarks/bm_text",
+      "query": {},
+      "authorization": "Bearer test-token"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": 502,
+  "content_type": "application/json",
+  "content_disposition": null,
+  "www_authenticate": null,
+  "upstream": [
+    {
+      "path": "/api/v1/bookmarks",
+      "query": {
+        "cursor": "boom",
+        "limit": "50"
+      },
+      "authorization": "Bearer test-token"
+    }
+  ]
+}

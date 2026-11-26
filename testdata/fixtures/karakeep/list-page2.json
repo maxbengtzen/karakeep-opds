@@ -1,0 +1,12 @@
+{
+  "data": [
+    {
+      "id": "bm_page2",
+      "createdAt": "2026-10-01T10:00:00.000Z",
+      "modifiedAt": "2026-10-01T10:00:00.500Z",
+      "title": "Sida två",
+      "content": {"type": "link", "url": "https://two.example.com", "author": "  ", "publisher": "Förlag Två"}
+    }
+  ],
+  "nextCursor": null
+}

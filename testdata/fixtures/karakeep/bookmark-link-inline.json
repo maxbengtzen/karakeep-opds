@@ -1,0 +1,12 @@
+{
+  "id": "bm_link_html",
+  "createdAt": "2026-11-07T10:00:00.000Z",
+  "modifiedAt": "2026-11-07T11:00:00.000Z",
+  "title": "Egen titel",
+  "content": {
+    "type": "link",
+    "url": "https://blog.example.net/post",
+    "htmlContent": "<div class=\"x\"><h1>Egen titel</h1><p>Egen titel</p><p>Hej &amp; välkommen <img src=\"data:image/png;base64,QUJD\" alt=\"\"> till <b>bloggen</b>.</p><script>alert(1)</script><p>Andra   stycket&nbsp;här.</p></div>"
+  },
+  "assets": [{"id": "asset_shot2", "assetType": "screenshot"}]
+}

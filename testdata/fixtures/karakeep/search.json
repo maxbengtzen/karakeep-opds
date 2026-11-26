@@ -1,0 +1,12 @@
+{
+  "bookmarks": [
+    {
+      "id": "bm_search",
+      "createdAt": "2026-09-01T10:00:00.000Z",
+      "modifiedAt": "2026-09-01T10:00:00.000Z",
+      "title": "Träff för å & b",
+      "summary": "Sökträff",
+      "content": {"type": "link", "url": "https://search.example.com/?q=å&x=\"1\""}
+    }
+  ]
+}

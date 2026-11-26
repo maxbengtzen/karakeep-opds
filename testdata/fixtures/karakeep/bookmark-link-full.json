@@ -1,0 +1,18 @@
+{
+  "id": "bm_link_full",
+  "createdAt": "2026-11-10T08:00:00.000Z",
+  "modifiedAt": "2026-11-12T05:57:47.123Z",
+  "title": null,
+  "summary": "En sammanfattning",
+  "content": {
+    "type": "link",
+    "url": "https://example.com/artikel?a=1&b=2",
+    "title": "Rubrik från sidan – åäö & <b>fet</b>",
+    "imageUrl": "https://img.example.com/banner.png",
+    "imageAssetId": "asset_banner",
+    "htmlContent": "<p>Inbäddad html som ska ersättas av asset.</p>",
+    "contentAssetId": "asset_html_1",
+    "author": "Anna Författare"
+  },
+  "assets": []
+}

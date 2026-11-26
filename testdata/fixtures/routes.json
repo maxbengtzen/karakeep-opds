@@ -1,0 +1,20 @@
+{
+  "karakeep": [
+    {"path": "/api/v1/bookmarks", "query": {"limit": "50"}, "file": "list-page1.json"},
+    {"path": "/api/v1/bookmarks", "query": {"limit": "50", "cursor": "cur sor/2+&="}, "file": "list-page2.json"},
+    {"path": "/api/v1/bookmarks", "query": {"limit": "50", "cursor": "boom"}, "status": 500, "body": "{\"error\":\"internal\"}"},
+    {"path": "/api/v1/bookmarks/search", "query": {"limit": "50", "q": "å & b"}, "file": "search.json"},
+    {"path": "/api/v1/bookmarks/search", "query": {"limit": "50"}, "file": "search-empty.json"},
+    {"path": "/api/v1/bookmarks/bm_link_full", "query": {}, "file": "bookmark-link-full.json"},
+    {"path": "/api/v1/bookmarks/bm_link_html", "query": {}, "file": "bookmark-link-inline.json"},
+    {"path": "/api/v1/bookmarks/bm_text", "query": {}, "file": "bookmark-text.json"},
+    {"path": "/api/v1/bookmarks/bm_title_only", "query": {}, "file": "bookmark-title-only.json"},
+    {"path": "/api/v1/bookmarks/bm_asset_pdf", "query": {}, "file": "bookmark-pdf.json"},
+    {"path": "/api/v1/assets/asset_banner", "query": {}, "file": "banner.png", "type": "image/png"},
+    {"path": "/api/v1/assets/asset_html_1", "query": {}, "file": "article1.html", "type": "text/html; charset=utf-8"}
+  ],
+  "remote": {
+    "https://img.example.com/inline1.png": {"file": "inline1.png", "type": "image/png"},
+    "https://img.example.com/inline2.gif": {"file": "inline2.gif", "type": "image/gif"}
+  }
+}

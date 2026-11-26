@@ -1,0 +1,10 @@
+{
+  "id": "bm_text",
+  "createdAt": "2026-11-09T10:15:30+02:00",
+  "title": "Textanteckning <&>",
+  "content": {
+    "type": "text",
+    "text": "Första raden & <tagg>.\n\n  Andra raden.  \nTredje raden.",
+    "sourceUrl": "https://source.example.org/text?x=1&y=2"
+  }
+}

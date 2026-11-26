@@ -1,0 +1,16 @@
+{
+  "status": 200,
+  "content_type": "application/opds+json",
+  "content_disposition": null,
+  "www_authenticate": null,
+  "upstream": [
+    {
+      "path": "/api/v1/bookmarks/search",
+      "query": {
+        "q": "å & b",
+        "limit": "50"
+      },
+      "authorization": "Bearer test-token"
+    }
+  ]
+}

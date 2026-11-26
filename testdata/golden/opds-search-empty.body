@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom"><id>karakeep-opds:/opds/search:</id><title>Search: </title><updated>2026-01-02T03:04:05.678901Z</updated><link rel="self" href="http://testserver/opds/search?q=" type="application/atom+xml" /></feed>

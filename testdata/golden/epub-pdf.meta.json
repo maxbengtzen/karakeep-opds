@@ -1,0 +1,13 @@
+{
+  "status": 404,
+  "content_type": "application/json",
+  "content_disposition": null,
+  "www_authenticate": null,
+  "upstream": [
+    {
+      "path": "/api/v1/bookmarks/bm_asset_pdf",
+      "query": {},
+      "authorization": "Bearer test-token"
+    }
+  ]
+}

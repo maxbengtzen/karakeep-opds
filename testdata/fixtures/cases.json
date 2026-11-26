@@ -1,0 +1,23 @@
+[
+  {"name": "healthz", "path": "/healthz", "auth": "none"},
+  {"name": "opds-noauth", "path": "/opds", "auth": "none"},
+  {"name": "opds-badauth", "path": "/opds", "auth": "bad"},
+  {"name": "opds-catalog", "path": "/opds"},
+  {"name": "opds-recent", "path": "/opds/recent"},
+  {"name": "opds-recent-page2", "path": "/opds/recent?cursor=cur+sor%2F2%2B%26%3D"},
+  {"name": "opds-recent-error", "path": "/opds/recent?cursor=boom"},
+  {"name": "opds-search", "path": "/opds/search?q=%C3%A5+%26+b"},
+  {"name": "opds-search-empty", "path": "/opds/search"},
+  {"name": "opds2-catalog", "path": "/opds2"},
+  {"name": "opds2-recent", "path": "/opds2/recent"},
+  {"name": "opds2-recent-page2", "path": "/opds2/recent?cursor=cur+sor%2F2%2B%26%3D"},
+  {"name": "opds2-search", "path": "/opds2/search?q=%C3%A5+%26+b"},
+  {"name": "opds2-search-empty", "path": "/opds2/search?q="},
+  {"name": "opds2-noauth", "path": "/opds2/recent", "auth": "none"},
+  {"name": "epub-link-full", "path": "/opds/bookmarks/bm_link_full.epub", "epub": true},
+  {"name": "epub-link-inline", "path": "/opds/bookmarks/bm_link_html.epub", "epub": true},
+  {"name": "epub-text", "path": "/opds/bookmarks/bm_text.epub", "epub": true},
+  {"name": "epub-title-only", "path": "/opds/bookmarks/bm_title_only.epub", "epub": true},
+  {"name": "epub-pdf", "path": "/opds/bookmarks/bm_asset_pdf.epub"},
+  {"name": "epub-missing", "path": "/opds/bookmarks/bm_missing.epub"}
+]

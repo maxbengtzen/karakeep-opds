@@ -1,0 +1,6 @@
+{
+  "id": "bm_title_only",
+  "modifiedAt": "2026-11-01T00:00:00Z",
+  "title": "Bara titel",
+  "content": {"type": "link", "url": "https://only.example.com", "htmlContent": "<p>Bara titel</p>"}
+}

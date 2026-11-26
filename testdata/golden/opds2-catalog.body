@@ -1,0 +1,1 @@
+{"metadata":{"title":"Karakeep OPDS"},"links":[{"rel":"self","href":"http://testserver/opds2","type":"application/opds+json"}],"navigation":[{"title":"Recent bookmarks","href":"http://testserver/opds2/recent","type":"application/opds+json","rel":"current"},{"title":"Search bookmarks","href":"http://testserver/opds2/search?q=","type":"application/opds+json","rel":"search"}]}

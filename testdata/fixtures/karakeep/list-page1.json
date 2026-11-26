@@ -1,0 +1,93 @@
+{
+  "bookmarks": [
+    {
+      "id": "bm_link_full",
+      "createdAt": "2026-11-10T08:00:00.000Z",
+      "modifiedAt": "2026-11-12T05:57:47.123Z",
+      "title": null,
+      "note": null,
+      "summary": "  En sammanfattning   med\n\nradbrytningar & <specialtecken> \"citat\"  ",
+      "content": {
+        "type": "link",
+        "url": "https://example.com/artikel?a=1&b=2",
+        "title": "Rubrik från sidan – åäö & <b>fet</b>",
+        "description": "Beskrivning",
+        "imageUrl": "https://img.example.com/banner.png",
+        "imageAssetId": "asset_banner",
+        "screenshotAssetId": "asset_shot",
+        "htmlContent": null,
+        "contentAssetId": "asset_html_1",
+        "author": "Anna Författare",
+        "publisher": "Exempelförlaget",
+        "dateModified": "2026-11-11T22:00:00.000Z"
+      },
+      "assets": [
+        {"id": "asset_banner", "assetType": "bannerImage", "fileName": "b.png"},
+        {"id": "asset_html_1", "assetType": "linkHtmlContent", "fileName": null}
+      ]
+    },
+    {
+      "id": "bm_text",
+      "createdAt": "2026-11-09T10:15:30+02:00",
+      "modifiedAt": null,
+      "title": "",
+      "note": "Anteckning om texten",
+      "summary": null,
+      "content": {
+        "type": "text",
+        "text": "Första raden i en lång textanteckning som fortsätter en bra bit till.\n\nAndra stycket med ![bild](data:image/png;base64,AAAA) och <img src=\"x.png\"> samt data:text/plain,hej i löptext.\nTredje raden.",
+        "sourceUrl": "https://source.example.org/text"
+      },
+      "assets": []
+    },
+    {
+      "id": "bm_asset_pdf",
+      "createdAt": "2026-11-08T10:00:00.000Z",
+      "modifiedAt": "2026-11-08T10:00:00.000Z",
+      "title": "En PDF",
+      "content": {"type": "asset", "assetType": "pdf", "assetId": "asset_pdf"},
+      "assets": []
+    },
+    {
+      "id": "bm_link_html",
+      "createdAt": "2026-11-07T10:00:00.000Z",
+      "updatedAt": "2026-11-07T11:00:00",
+      "title": "  Egen titel  ",
+      "summary": "",
+      "content": {
+        "type": "link",
+        "url": "https://blog.example.net/post",
+        "htmlContent": "<div class=\"x\"><p>Hej &amp; välkommen <img src=\"data:image/png;base64,QUJD\" alt=\"\"> till <b>bloggen</b>.</p><script>alert(1)</script><p>Andra   stycket&nbsp;här.</p></div>",
+        "publisher": "Bloggen AB"
+      },
+      "assets": [
+        {"id": "asset_shot2", "assetType": "screenshot"}
+      ]
+    },
+    {
+      "id": "bm_long",
+      "createdAt": "2026-11-06T10:00:00.000Z",
+      "modifiedAt": "2026-11-06T10:00:00.000Z",
+      "content": {
+        "type": "text",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Åäö-tecken räknas som ett tecken var: åäöåäöåäöåäöåäöåäöåäöåäöåäöåäöåäöåäöåäöåäöåäöåäöåäöåäöåäöåäöåäöåäöåäöåäö slut på första delen och sedan fortsätter det med mer text så att femhundra tecken passeras med marginal."
+      }
+    },
+    {
+      "id": "",
+      "content": {"type": "link", "url": "https://skippad.example.com"}
+    },
+    {
+      "id": "bm_minimal",
+      "content": {"type": "link"}
+    },
+    {
+      "id": "bm_ws_title",
+      "createdAt": "2026-11-05T10:00:00.000Z",
+      "modifiedAt": "2026-11-05T10:00:00.000Z",
+      "title": "   ",
+      "content": {"type": "link", "url": "  https://ws.example.com/  ", "title": null}
+    }
+  ],
+  "nextCursor": "cur sor/2+&="
+}

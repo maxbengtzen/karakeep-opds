@@ -1,0 +1,32 @@
+{
+  "status": 200,
+  "content_type": "application/epub+zip",
+  "content_disposition": "attachment; filename=\"bm_link_full.epub\"",
+  "www_authenticate": null,
+  "upstream": [
+    {
+      "path": "/api/v1/bookmarks/bm_link_full",
+      "query": {},
+      "authorization": "Bearer test-token"
+    },
+    {
+      "path": "/api/v1/assets/asset_html_1",
+      "query": {},
+      "authorization": "Bearer test-token"
+    },
+    {
+      "path": "/api/v1/assets/asset_banner",
+      "query": {},
+      "authorization": "Bearer test-token"
+    },
+    {
+      "remote": "https://img.example.com/inline1.png"
+    },
+    {
+      "remote": "https://img.example.com/inline2.gif"
+    },
+    {
+      "remote": "https://img.example.com/missing.png"
+    }
+  ]
+}

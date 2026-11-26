@@ -1,0 +1,15 @@
+{
+  "status": 200,
+  "content_type": "application/atom+xml; charset=utf-8",
+  "content_disposition": null,
+  "www_authenticate": null,
+  "upstream": [
+    {
+      "path": "/api/v1/bookmarks/search",
+      "query": {
+        "limit": "50"
+      },
+      "authorization": "Bearer test-token"
+    }
+  ]
+}
