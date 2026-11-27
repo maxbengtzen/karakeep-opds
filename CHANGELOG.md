@@ -7,6 +7,8 @@ All changes noticeable to whoever runs the service. The format follows
 
 ## [Unreleased]
 
+## [0.3.1] - 2026-11-27
+
 ### Changed
 - golang.org/x/net 0.63.0, with x/crypto 0.59, x/sys 0.50 and x/text 0.44.
 
